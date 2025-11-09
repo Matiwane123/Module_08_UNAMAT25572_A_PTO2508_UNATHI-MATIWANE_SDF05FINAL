@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+      <div class="container px-6 py-12 mx-auto">
+        <!-- Grid wrapper -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Newsletter -->
+          <div class="sm:col-span-2 md:col-span-1">
+            <h1 class="text-xl font-semibold mb-4">
+              Subscribe to our newsletter for updates.
+            </h1>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <input id="email type="text" placeholder="Email Address"
+              class="flex-1 px-4 py-2 border bg-white rounded-md
+              focus:outline-none focus:ring-2 focus:ring-orange-400" />
+              <button
+                class="px-6 py-2.5 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h2 class="text-lg font-semibold mb-4 text-[#313131]">
+              Quick Links
+            </h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">Home</a></li>
+              <li><a href="#" class="hover:underline">Who We Are</a></li>
+              <li><a href="#" class="hover:underline">Our Philosophy</a></li>
+            </ul>
+          </div>
+
+          <!-- Technologies -->
+          <div>
+            <h2 class="text-lg font-semibold mb-4 text-[#313131]">
+              Technologies
+            </h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:underline">HTML</a></li>
+              <li><a href="#" class="hover:underline">CSS</a></li>
+              <li><a href="#" class="hover:underline">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="my-6 border-[#d86943]" />
+
+        <!-- Branding -->
+        <div class="flex justify-center md:justify-start">
+          <a href="#">
+            <img
+              class="w-auto h-7"
+              src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+              alt="Codespace Logo"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
